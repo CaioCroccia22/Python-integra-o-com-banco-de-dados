@@ -1,0 +1,24 @@
+ 1. Porque um banco de dados?
+    Armazenamento em banco de dados, é a forma mais padronizada
+    para armazenar dados, além da segurança de armazenar os dados em uma 
+    estrutura lógico
+
+2. O que é um banco de dados?
+    - É uma coleção de dados relacionais. 
+    - Uma coleção lógica e coerente de dados com algum significado inerente
+    - Projeto, construido e povoado por dados com um proposito
+        especifico (3 niveis de modelagem)
+    - Modelo Relacional 
+
+3. Porque foi escolhido o SGBD SQLite?
+    É utilizado por ter um modulo nativo da linguagem python
+    Tambem vai ser explorado o PostgreSQL, por conta do seu recente crescimento.
+    Para lidar com documentos vai ser usado o MongoDB
+     
+
+
+4. Existem diversas categorias de banco de dados como Relacional,
+NOSQL, Hierárquico, etc.
+
+
+
