@@ -6,5 +6,4 @@ conn = psycopg2.connect(
     password = 'root',
     host = 'localhost',
     port = '5432',
-
 )
