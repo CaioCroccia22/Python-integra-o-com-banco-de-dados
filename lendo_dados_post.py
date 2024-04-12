@@ -1,3 +1,4 @@
+
 from conexao_post import conn
 
 # Criando o cursor
