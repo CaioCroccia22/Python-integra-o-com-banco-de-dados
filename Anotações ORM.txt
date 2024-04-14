@@ -7,5 +7,4 @@ ORM - Mapeamento Objeto Relacional
         A ideai é que uma classe se torne uma tabela e os atributos
         se tornem coluna, por meio dessa técnica podemos remover as instruções SQL
 
-
 3 - É necessário instalar a biblioteca pip install sqlalchemy  
