@@ -8,4 +8,4 @@ ORM - Mapeamento Objeto Relacional
         se tornem coluna, por meio dessa técnica podemos remover as instruções SQL
 
 
-3 - É necessário instalar a biblioteca pip install sqlalchemy
+3 - É necessário instalar a biblioteca pip install sqlalchemy  
