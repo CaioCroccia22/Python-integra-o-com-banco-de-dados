@@ -1,0 +1,10 @@
+ORM - Mapeamento Objeto Relacional
+
+1 - Motivo -> Impedância -> Dificuldade entre comunicação OO com banco de dados Relacional, isso torna o maoeamento entre estruturas OO e banco de dados relacional muito complicado
+
+2 - O que seria o ORM -> Uma técnica que une o OO com BD relacional
+ 
+        A ideai é que uma classe se torne uma tabela e os atributos
+        se tornem coluna, por meio dessa técnica podemos remover as instruções SQL
+
+
