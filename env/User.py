@@ -8,7 +8,7 @@ class User(Base):
     id = Column(Integer, primary_key=True)
     name = Column(String)
     email = Column(String)
-    post = relationship('Post', back_populates='author')
+    posts = relationship('Post', back_populates='author')
 
     def __init__(self, name, email):
         self.name = name

@@ -8,7 +8,10 @@ host = 'localhost'
 database = 'blog'
 
 # Passa os dados para a URI que estabelece a conexao com o banco
-DATABASE_URI = f'postgresql://{user}:{password}{host}/{database}'
+DATABASE_URI = f'postgresql://{user}:{password}@{host}/{database}'
+
+
+
 
 # Cria uma engine baseada na URI
 engine = create_engine(DATABASE_URI)

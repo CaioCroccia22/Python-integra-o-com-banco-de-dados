@@ -24,16 +24,24 @@ def add_user():
     print("Usuário adicionado com sucesso!!")
 
 # Função para adicionar novo Post
-    def add_Post():
-        print = ("Adicionar novo post:\n")
-        title = input("Digite o titulo do post: \n")
-        content = input("Digite o conteúdo do post: \n")
-        author_id = input("Digite o ID do autor: \n")
+def add_post():
+    print("Adicionar novo post:\n")
+    title = input("Digite o titulo do post: \n")
+    content = input("Digite o conteúdo do post: \n")
+    author_id = input("Digite o ID do autor: \n")
         # Para adicionar o post tem que ver se o id do autor(chave estrageira) existe
         # Para isso a variavel user
-        user = session.query(User).filter_by(id=author_id).first()
-        if user:
-            post = Post(title, content, author_id)
-            session.add(post)
-            session.commit()
-            print("Post adicionado com sucesso!")
+    user = session.query(User).filter_by(id=author_id).first()
+    if user:
+        post = Post(title=title, content=content, author=user)
+        session.add(post)
+        session.commit()
+        print("Post adicionado com sucesso!")
+        
+
+def query_user_post():
+    users = session.query(User).join(User.posts).order_by(User.name).all()
+    for user in users:
+        print(f"User: {user.name}, email: {user.email}")
+        for post in user.posts:
+                print(f"Post: {post.title}, conteúdo: {post.content}")
