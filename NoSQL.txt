@@ -17,3 +17,16 @@ Os dados não estruturados são dados que não conseguimos preever uma estrutura
         d) Orientado a documentos -> MongoDB
 
 5) Persistência Poliglota
+
+
+- Comandos MongoDB
+
+- Verificar qual base de dados eu tenho -> show dbs;
+- Criar o banco de dados -> use db;
+- verificar quais coleções eu teno dentro desse banco de dados ->  show collections;
+- criar a coleção -> db.createCollection('users');
+- Inserir registro -> db.users.insertOne({name: "Caio", email: "caio.croccia@gmail.com", phone: "32312324"});
+- atualização -> db.users.update({name: "Caio"}, {$set: {name: "Rodrigo"}});
+- excluir -> db.users.deleteOne({name: "Caio"});
+
+
