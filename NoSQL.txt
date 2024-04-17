@@ -1,0 +1,19 @@
+
+Anotações NOSQL
+
+1) NOSQL significa Not Only SQL - Não relacional
+
+2) Dados estruturados x não estruturados e Big Data:
+Cada vez os dados estão sendo mais trafegados na internet, dessa forma há a necessidade de um banco de dados mais robusto
+para isso temos o NOSQL.
+Os dados não estruturados são dados que não conseguimos preever uma estrutura, exemplo textos e emojis, diante disso foi iniciado o NOSQL
+
+3)  Mais velocidade, flexibilidade e escabilidade
+
+4) Categorias banco de dados NOSQL:
+        a) Orientação a familia de colunas -> Kassandra
+        b) Orientado a chave e valor -> Semelhante ao JSON, banco de dados mais utilizados para cache
+        c) Orientado a grafos -> Utilizado para cálcula a distancia, ideal no cenario de relacionamento entre dados
+        d) Orientado a documentos -> MongoDB
+
+5) Persistência Poliglota
