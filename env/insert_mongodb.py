@@ -11,11 +11,11 @@ mycol = mydb.posts
 
 
 post1 = {
-    "title": "WebScraping",
-    "category": "Automação",
+    "title": "Streamlit",
+    "category": "Data analysis",
     "author": {
-        "name": "Caio Croccia",
-        "email": "caio.croccia@gmail.com"
+        "name": "Teste",
+        "email": "teste@gmail.com"
     }
     
 }
