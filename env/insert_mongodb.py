@@ -3,10 +3,10 @@ from pymongo import MongoClient
 # Estabelecendo conexão
 client = MongoClient()
 
-# Criando o database
+# Criando\Acessando o database
 mydb = client.obcblog
 
-# Criando a collection
+# Acessando a collection
 mycol = mydb.posts
 
 
